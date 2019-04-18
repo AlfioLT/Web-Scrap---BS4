@@ -5,23 +5,6 @@ import csv
 import os
 import numbers
 
-# import mysql.connector
-
-# mydb = mysql.connector.connect(
-#   host="localhost",
-#   user="yourusername",
-#   passwd="yourpassword",
-#   database="mydatabase"
-# )
-
-mycursor = mydb.cursor()
-
-mycursor.execute("SELECT * FROM customers")
-
-myresult = mycursor.fetchall()
-
-for x in myresult:
-  print(x)
 
 
 url = 'https://www.paginegialle.it/ricerca/via%20liguria?'
@@ -130,3 +113,24 @@ for i in range(0,1):
 # rows = soup.find_all("div" , class_="col contentCol")
 # print(type(rows))
 # print(len(rows))
+
+
+
+# import mysql.connector
+
+# mydb = mysql.connector.connect(
+#   host="localhost",
+#   user="yourusername",
+#   passwd="yourpassword",
+#   database="mydatabase"
+# )
+
+# mycursor = mydb.cursor()
+
+# mycursor.execute("SELECT * FROM customers")
+
+# myresult = mycursor.fetchall()
+
+# for x in myresult:
+#   print(x)
+
