@@ -5,14 +5,14 @@ import csv
 import os
 import numbers
 
-import mysql.connector
+# import mysql.connector
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="yourusername",
-  passwd="yourpassword",
-  database="mydatabase"
-)
+# mydb = mysql.connector.connect(
+#   host="localhost",
+#   user="yourusername",
+#   passwd="yourpassword",
+#   database="mydatabase"
+# )
 
 mycursor = mydb.cursor()
 
@@ -127,6 +127,6 @@ for i in range(0,1):
 
 
 
-rows = soup.find_all("div" , class_="col contentCol")
-print(type(rows))
-print(len(rows))
+# rows = soup.find_all("div" , class_="col contentCol")
+# print(type(rows))
+# print(len(rows))
